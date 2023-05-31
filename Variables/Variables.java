@@ -9,7 +9,7 @@ public class Variables {
         Variables obj=new Variables();
         System .out.println(c);//loacal variable should be initialized before use
         System .out.println(d);//loacal variable should be initialized before use
-        System .out.println(obj.a);
+        System .out.println(obj.a);//instance variable need not be initialized before use
 
         
     }
