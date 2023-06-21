@@ -19,6 +19,7 @@ class Farmer{
         principal = sc.nextInt();
         System.out.println("Enter the time period");
         time = sc.nextInt();
+        sc.close();
         
         
     }
