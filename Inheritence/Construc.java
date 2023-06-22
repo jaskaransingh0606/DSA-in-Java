@@ -1,5 +1,6 @@
 class Demo1{
       public Demo1(){
+        
         //Super();                                                  //Called by default in every constructor
         System.out.println("Parent class Constructor");
 
@@ -11,7 +12,9 @@ class Demo1{
 }
 
 class Demo2 extends Demo1{
+    
       public Demo2(){
+        this(10,20);
         System.out.println("child class Constructor");
 
     }
@@ -20,13 +23,6 @@ class Demo2 extends Demo1{
 
     }
 }
-
-
-
-
-
-
-
 
 public class Construc {
     public static void main(String[] args) {
