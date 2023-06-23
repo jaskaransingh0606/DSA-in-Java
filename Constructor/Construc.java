@@ -20,8 +20,7 @@
 
     public void show() {
         System.out.println(age + " " + name);
-    }  
-   
+    }   
 }
 
 public class Construc {
@@ -29,9 +28,5 @@ public class Construc {
         Construc1 obj = new Construc1 ("Rahul",20);
        
         obj.show();
-       
-       
-
     }
-
 }
