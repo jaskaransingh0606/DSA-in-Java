@@ -30,6 +30,9 @@ class Student extends Human{           //child class, sub class, derived class,e
 public class Inherit {
     public static void main(String[] args) {
         Student obj = new Student();
+        // Human obj1=new Human();
+        // obj.Human();                               //constructor is not inherited
+
         obj.display();
         obj.age=20;
         obj.sleep();

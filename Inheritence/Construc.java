@@ -14,7 +14,7 @@ class Demo1{
 class Demo2 extends Demo1{
     
       public Demo2(){
-        this(10,20);
+        this(10,20);                        //this keyword is used to call the constructor of same class
         System.out.println("child class Constructor");
 
     }
@@ -26,7 +26,7 @@ class Demo2 extends Demo1{
 
 public class Construc {
     public static void main(String[] args) {
-        Demo2 obj=new Demo2();
+        Demo2 obj=new Demo2();                              //constructor of parent class is called first
         
         
     }

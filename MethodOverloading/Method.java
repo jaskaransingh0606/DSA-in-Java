@@ -20,7 +20,9 @@ public class Method {
         int num3 = 8;
         int num4 = 9;
         Name obj = new Name();  
-        int result = obj.sum(num1, num2, num3,num4);
-        System.out.println("The sum of the numbers is " + result);
+        int result1 = obj.sum(num1, num2, num3,num4);
+        int result2=obj.sum(num1,num2,num3);
+        System.out.println("The sum of the numbers is " + result1);
+        System.out.println("The sum of the numbers is " + result2);
     }
 }
