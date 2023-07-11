@@ -12,7 +12,7 @@
     int age=10;
     final void sleep(){
         System.out.println("Animal is sleeping");
-        age=20;
+        age=20; // final variable can be changed inside the class
 
         
     }
