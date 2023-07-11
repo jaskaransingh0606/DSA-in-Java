@@ -8,7 +8,7 @@ class Farmer{
     float time;
     float simpleInterest;
 
-    static{
+    static{                                  // static block is used to initialize the static variables
         rate=4.5f;
 
     }
