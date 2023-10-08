@@ -7,7 +7,7 @@ class Example implements Runnable{
        for(int i=0;i<=3;i++){
         try{
              System.out.println("Focus is important to master skills");
-           Thread.sleep(2000);
+        //    Thread.sleep(2000);
 
         }
         catch(Throwable e){
@@ -27,7 +27,9 @@ public class Inter {
         Thread t=new Thread(e);
 
         t.start();
-        t.interrupt();
+        // t.interrupt();
+        
+        System.out.println(t.isAlive());
         
     }
     
