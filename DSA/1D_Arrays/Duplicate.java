@@ -1,3 +1,9 @@
+// Duplicate element in an array
+
+// time complexity: O(n^2)
+// space complexity: O(1)
+
+
 public class Duplicate {
     public static void main(String[] args) {
 
