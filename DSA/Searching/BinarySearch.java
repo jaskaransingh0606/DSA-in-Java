@@ -16,7 +16,7 @@ public class BinarySearch {
 
         while (start <= end) {
 
-            int mid = start + (end - start) / 2;  // to avoid integer overflow
+            int mid = start + (end - start) / 2; // to avoid integer overflow
 
             if (arr[mid] == x) {
                 System.out.println("Element found at index " + mid);
