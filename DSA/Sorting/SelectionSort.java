@@ -1,3 +1,7 @@
+ // In Selection Sort, we find the maximum element and place it at the end of the array.
+// time complexity: O(n^2)
+// space complexity: O(1)
+
 
 public class SelectionSort {
     public static void main(String[] args) {
@@ -6,8 +10,7 @@ public class SelectionSort {
     }
 
     static void selection(int[] arr) {
-        for (int i = 0; i < arr.length; i++)
-         {
+        for (int i = 0; i < arr.length; i++) {
             int last = arr.length - i - 1;
             int maxIndex = getMaxIndex(arr, 0, last);
             swap(arr, maxIndex, last);
