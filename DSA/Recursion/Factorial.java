@@ -20,6 +20,7 @@ public class Factorial {
         int n=sc.nextInt();
         int result = factorial(n);
         System.out.println("Factorial of "+n+" is "+result);
+        sc.close();
 
         
     }
