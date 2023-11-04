@@ -51,36 +51,29 @@ class Umpire {
     public void collectFromPlayer3() {
         Player p3 = new Player();
         numFromPlayer3 = p3.takeNumberPlayer();
-    } 
+    }
 
-    public void compare(){
-        if(numFromPlayer1==numFromGuesser){
-            if(numFromPlayer2==numFromGuesser && numFromPlayer3==numFromGuesser){
+    public void compare() {
+        if (numFromPlayer1 == numFromGuesser) {
+            if (numFromPlayer2 == numFromGuesser && numFromPlayer3 == numFromGuesser) {
                 System.out.println("All players win");
-            }
-            else if(numFromPlayer2==numFromGuesser){
+            } else if (numFromPlayer2 == numFromGuesser) {
                 System.out.println("Player 1 and Player 2 win");
-            }
-            else if(numFromPlayer3==numFromGuesser){
+            } else if (numFromPlayer3 == numFromGuesser) {
                 System.out.println("Player 1 and Player 3 win");
-            }
-            else{
+            } else {
                 System.out.println("Only Player 1 wins");
             }
-        }
-        else if(numFromPlayer2==numFromGuesser){
-            if(numFromPlayer3==numFromGuesser){
+        } else if (numFromPlayer2 == numFromGuesser) {
+            if (numFromPlayer3 == numFromGuesser) {
                 System.out.println("Player 2 and Player 3 win");
-            }
-            else{
+            } else {
                 System.out.println("Only Player 2 wins");
             }
 
-        }
-        else if(numFromPlayer3==numFromGuesser){
+        } else if (numFromPlayer3 == numFromGuesser) {
             System.out.println("Only Player 3 wins");
-        }
-        else{
+        } else {
             System.out.println("No one wins");
         }
     }
