@@ -1,4 +1,4 @@
-public class InsertAtBeg {
+public class IterativeReversal {
 
     class Node {
         int data;
@@ -26,17 +26,31 @@ public class InsertAtBeg {
         }
     }
 
-    public static void main(String[] args) {
+    public void reverseList() {
+        Node curr = head;
+        Node prev = null;
+        Node next = null;
 
-        InsertAtBeg llist = new InsertAtBeg();
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
+    }
+
+    public static void main(String[] args) {
+        IterativeReversal llist = new IterativeReversal();
         llist.InsertBeg(6);
         llist.InsertBeg(7);
         llist.InsertBeg(8);
         llist.InsertBeg(9);
-        System.out.println("Linked List created");
-
         llist.printList();
-
+        llist.reverseList();
+        System.out.println();
+        llist.printList();
     }
 
 }

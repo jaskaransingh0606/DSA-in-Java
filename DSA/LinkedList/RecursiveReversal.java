@@ -1,4 +1,4 @@
-public class InsertAtBeg {
+public class RecursiveReversal {
 
     class Node {
         int data;
@@ -26,15 +26,16 @@ public class InsertAtBeg {
         }
     }
 
-    public static void main(String[] args) {
+    public void reverseList(){
+        
+    }
 
-        InsertAtBeg llist = new InsertAtBeg();
+    public static void main(String[] args) {
+        RecursiveReversal llist = new RecursiveReversal();
         llist.InsertBeg(6);
         llist.InsertBeg(7);
         llist.InsertBeg(8);
         llist.InsertBeg(9);
-        System.out.println("Linked List created");
-
         llist.printList();
 
     }
