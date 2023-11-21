@@ -26,6 +26,8 @@
 public class Construc {
     public static void main(String[] args) {
         Construc1 obj = new Construc1 ("Rahul",20);
+        String result = obj.getName();
+        System.out.println(result);
        
         obj.show();
     }
