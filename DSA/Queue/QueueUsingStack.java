@@ -30,6 +30,7 @@ public class QueueUsingStack {
         }
         // Pop element from s2
         ele = s2.pop();
+        
         return ele;
 
     }
@@ -41,6 +42,12 @@ public class QueueUsingStack {
         q.enqueue(2);
         q.enqueue(3);
         int res = q.dequeue();
+        System.out.println("Deleted element is " + res);
+        q.enqueue(4);
+        q.enqueue(5);
+        q.dequeue();
+        q.dequeue();
+        res = q.dequeue();
         System.out.println("Deleted element is " + res);
 
     }
