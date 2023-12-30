@@ -1,3 +1,6 @@
+// time complexity : O(n)
+// space complexity : O(1)
+
 public class BuildingHeap {
     public static void heapify(int arr[] , int n , int i){
         //assumption that parent node  is the largest element
